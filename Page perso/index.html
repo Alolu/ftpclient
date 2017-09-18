@@ -1,0 +1,68 @@
+<html>
+<head>
+ <title>Valentin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Oui ewe">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fontawesome.io/3.2.1/assets/font-awesome/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet">
+</head>
+<script type="text/javascript">
+function toggleSound() {
+  var audioElem = document.getElementById('player');
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
+function Hit(){
+    var audio = document.getElementById("audio");
+    audio.play();
+}
+</script>
+<style>
+
+</style>
+<body>
+    
+<div id="music">
+	<p>Music name: Next To You (Parasyte OST)</p>
+    <audio id="player" src="audio/music.mp3" autoplay="true" loop="false" hidden="false"></audio>
+    <button id="button" style="font-size:15px" class="fa fa-pause" onclick="javascript:toggleSound();"></button>
+</div>
+    <div id="page">
+        <img src="img/dazai.png" class="imgblock noselect">
+<marquee>your waifu is trash</marquee>
+        <p class="title">Valentin</p>
+<hr>
+    <p>Valentin, 18 years old and currently living in France. I'm a student and I want to improve my dev skills !</p><p>My main languages are HTML, CSS and PHP.</p>
+    <center><p>Océane est très grosse</p></center>
+<hr>
+    <p class="title">You can contact me with:</p>
+            <div class="blocks noselect">
+                <a href="twitter.com/ewebot">
+                    <i class="icon-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="skype:saikopasu__">
+                    <i class="icon-skype" aria-hidden="true"></i>
+                <a href="#">
+					<img src="https://maxcdn.icons8.com/Color/PNG/24/Logos/discord_logo-24.png" title="Discord Logo" width="30">
+				</a>
+                 <a href="#">
+                    <img src="https://lh5.ggpht.com/33uBTzKhuSxyNyuN7NNjlv9mrOPJpe_247JmMCmY7pFGsBwpxG-ybnTuWYlRbo_MRZnx=w300" title="HummingBird Logo" width="30">
+                </a>
+            </div>
+        </div>
+<div class='a' onclick="Hit()">ewe</div>
+<audio id="audio" src="audio/hit.mp3"></audio>
+<script
+	src="https://code.jquery.com/jquery-2.2.3.min.js"
+	integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+	crossorigin="anonymous"></script>
+<script src="js/move.js">
+</script>
+
+</body>
+</html>
